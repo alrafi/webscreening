@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'PTRoot';
+  font-weight: normal;
+  src: local('PTRoot'),
+    url('../assets/fonts/PTRoot/PT-Root-UI_Regular/PT-Root-UI_Regular.otf')
+      format('opentype');
+}
+
+@font-face {
+  font-family: 'PTRootMedium';
+  font-weight: 500;
+  src: local('PTRootMedium'),
+    url('../assets/fonts/PTRoot/PT-Root-UI_Medium/PT-Root-UI_Medium.otf')
+      format('opentype');
+}
+
+@font-face {
+  font-family: 'PTRootLight';
+  font-weight: 300;
+  src: local('PTRootLight'),
+    url('../assets/fonts/PTRoot/PT-Root-UI_Light/PT-Root-UI_Light.otf')
+      format('opentype');
+}
+
+@font-face {
+  font-family: 'PTRootBold';
+  font-weight: bold;
+  src: local('PTRootBold'),
+    url('../assets/fonts/PTRoot/PT-Root-UI_Bold/PT-Root-UI_Bold.otf')
+      format('opentype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'PTRoot', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
