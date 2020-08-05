@@ -1,0 +1,38 @@
+// SECTION SHOWCASE
+.showcase {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.navigation {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.showcase-image {
+  width: 90vw;
+}
+
+// SECTION: WEATHER
+.weather {
+  height: 40vh;
+  background-color: yellowgreen;
+}

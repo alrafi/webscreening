@@ -1,12 +1,9 @@
 import React from 'react';
 import './styles/index.scss';
+import Home from './pages/Home';
 
 const App = () => {
-  return (
-    <div>
-      <h1>TapTalk.io</h1>
-    </div>
-  );
+  return <Home />;
 };
 
 export default App;

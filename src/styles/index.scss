@@ -30,6 +30,12 @@
       format('opentype');
 }
 
+$color-primary: #ff850f;
+$color-white: #ffffff;
+$color-grey: #f8f9f3;
+$color-grey-darker: #f3f3f3;
+$color-black: #191919;
+
 * {
   margin: 0;
   padding: 0;
@@ -40,4 +46,5 @@ body {
   font-family: 'PTRoot', sans-serif;
   font-weight: normal;
   font-size: 16px;
+  background-color: $color-white;
 }
