@@ -1,0 +1,63 @@
+@import './color.scss';
+
+.disposition-wrapper {
+  height: 100vh;
+  background-color: $color-primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 8rem;
+
+  .disposition-image {
+    margin-right: 15rem;
+    img {
+      width: 40vw;
+    }
+  }
+
+  .disposition-info {
+    width: 30vw;
+
+    .disposition-title {
+      padding: 0.3rem 0.5rem;
+      text-align: center;
+      width: 12rem;
+      background-color: $color-primary-light;
+      color: $color-white;
+      letter-spacing: 0.2rem;
+      font-size: 1.4rem;
+      border-radius: 0.7rem;
+      margin-bottom: 1.2rem;
+    }
+
+    h2 {
+      font-family: 'PTRootBold', sans-serif;
+      font-size: 4.2rem;
+      margin-bottom: 1.2rem;
+      line-height: 1.2;
+      color: $color-white;
+    }
+
+    .disposition-content {
+      font-size: 2rem;
+      line-height: 1.4;
+      margin-bottom: 2rem;
+      color: $color-white;
+    }
+
+    .disposition-more-wrapper {
+      display: flex;
+      align-items: center;
+
+      p {
+        font-family: 'PTRootMedium', sans-serif;
+        color: $color-white;
+        font-size: 1.6rem;
+      }
+
+      img {
+        color: $color-primary;
+      }
+    }
+  }
+}
