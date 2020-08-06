@@ -1,12 +1,24 @@
 import React from 'react';
 import '../styles/button.scss';
 
-const Button = ({ type, children }) => {
+const Button = ({ type, size, children }) => {
   if (type === 'secondary') {
-    return <button className="button button-secondary">{children}</button>;
+    if (size === 'medium') {
+      return (
+        <button className="button button-secondary medium">{children}</button>
+      );
+    } else if (size === 'large') {
+      return (
+        <button className="button button-secondary large">{children}</button>
+      );
+    }
   }
 
-  return <button className="button button-primary">{children}</button>;
+  if (size === 'medium') {
+    return <button className="button button-primary medium">{children}</button>;
+  }
+
+  return <button className="button button-primary large">{children}</button>;
 };
 
 export default Button;

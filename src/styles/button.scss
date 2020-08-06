@@ -1,11 +1,10 @@
 @import './color.scss';
 
 .button {
-  width: 10rem;
-  height: 3.5rem;
-  border-radius: 0.5rem;
+  border-radius: 0.7rem;
   border: none;
   cursor: pointer;
+  outline: none;
 }
 
 .button-primary {
@@ -16,4 +15,14 @@
 .button-secondary {
   background-color: transparent;
   border: 0.1rem solid $color-primary;
+}
+
+.medium {
+  width: 10rem;
+  height: 3.5rem;
+}
+
+.large {
+  width: 15rem;
+  height: 4.5rem;
 }
