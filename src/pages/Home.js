@@ -5,6 +5,7 @@ import ShowcaseContent from '../components/ShowcaseContent';
 import Weather from '../components/Weather';
 import InboxFeature from '../components/InboxFeature';
 import DispositionFeature from '../components/DispositionFeature';
+import UserSessionFeature from '../components/UserSessionFeature';
 
 const Home = () => {
   return (
@@ -21,6 +22,9 @@ const Home = () => {
       </section>
       <section className="disposition-features">
         <DispositionFeature />
+      </section>
+      <section className="usersession-features">
+        <UserSessionFeature />
       </section>
     </div>
   );

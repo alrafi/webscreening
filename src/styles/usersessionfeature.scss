@@ -1,0 +1,63 @@
+@import './color.scss';
+
+.usersession-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  padding: 8rem 6rem 12rem 12rem;
+
+  .usersession-info {
+    width: 30vw;
+    margin-right: 10rem;
+
+    .usersession-title {
+      padding: 0.3rem 0.5rem;
+      text-align: center;
+      width: 18rem;
+      background-color: $color-primary-lighter;
+      color: $color-primary;
+      letter-spacing: 0.1rem;
+      font-family: 'PTRootBold', sans-serif;
+      font-size: 1.4rem;
+      border-radius: 0.7rem;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-family: 'PTRootBold', sans-serif;
+      font-size: 3.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .usersession-content {
+      font-size: 2rem;
+      line-height: 1.4;
+      margin-bottom: 2rem;
+      color: $color-light-black;
+    }
+
+    .usersession-more-wrapper {
+      display: flex;
+      align-items: center;
+
+      .usersession-more {
+        font-family: 'PTRootMedium', sans-serif;
+        color: $color-primary;
+        font-size: 1.6rem;
+      }
+
+      img {
+        color: $color-primary;
+      }
+    }
+  }
+
+  .usersession-image {
+    img {
+      width: 40vw;
+    }
+  }
+}
