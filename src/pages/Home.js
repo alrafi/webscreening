@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/home.scss';
 import Header from '../components/Header';
+import Button from '../components/Button';
 
 const Home = () => {
   return (
@@ -19,8 +20,12 @@ const Home = () => {
             dashboard.
           </p>
           <div className="button-content">
-            <button>See Pricing</button>
-            <button>Get Started Now!</button>
+            <Button type="secondary" size="large">
+              See Pricing
+            </Button>
+            <Button type="primary" size="large">
+              Get Started Now!
+            </Button>
           </div>
           <img
             src={require('../assets/img/PNG/Group - assets@2x.png')}

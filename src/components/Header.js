@@ -34,8 +34,12 @@ const Header = () => {
           </ul>
         </nav>
         <div className="button-container">
-          <Button type="primary">Log in</Button>
-          <Button type="secondary">Get Started</Button>
+          <Button type="primary" size="medium">
+            Log in
+          </Button>
+          <Button type="secondary" size="medium">
+            Get Started
+          </Button>
         </div>
       </div>
     </header>
