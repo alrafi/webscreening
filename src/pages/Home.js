@@ -18,6 +18,7 @@ const Home = () => {
       <section className="inbox-features">
         <InboxFeature />
       </section>
+      <section className="disposition-features"></section>
     </div>
   );
 };
