@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/header.scss';
+import Button from './Button';
 
 const Header = () => {
   return (
@@ -33,8 +34,8 @@ const Header = () => {
           </ul>
         </nav>
         <div className="button-container">
-          <button className="button button-primary">Log in</button>
-          <button className="button button-secondary">Get Started</button>
+          <Button type="primary">Log in</Button>
+          <Button type="secondary">Get Started</Button>
         </div>
       </div>
     </header>

@@ -32,24 +32,6 @@ header {
       width: 21rem;
       display: flex;
       justify-content: space-between;
-
-      .button {
-        width: 10rem;
-        height: 3.5rem;
-        border-radius: 0.5rem;
-        border: none;
-        cursor: pointer;
-      }
-
-      .button-primary {
-        background-color: $color-primary;
-        color: $color-white;
-      }
-
-      .button-secondary {
-        background-color: transparent;
-        border: 0.1rem solid $color-primary;
-      }
     }
   }
 }
