@@ -5,6 +5,7 @@
   border: none;
   cursor: pointer;
   outline: none;
+  font-family: 'PTRootMedium', sans-serif;
 }
 
 .button-primary {
@@ -15,6 +16,7 @@
 .button-secondary {
   background-color: transparent;
   border: 0.1rem solid $color-primary;
+  color: $color-primary;
 }
 
 .medium {
