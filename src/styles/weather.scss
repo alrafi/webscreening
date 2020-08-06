@@ -1,0 +1,71 @@
+@import './color.scss';
+
+.weather-container {
+  width: 80vw;
+  background-color: $color-white;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+
+  .weather-content {
+    .weather-info {
+      .weather-location {
+        font-family: 'PTRootBold', sans-serif;
+        font-size: 1.8rem;
+      }
+
+      .weather-status {
+        font-size: 1.4rem;
+        color: $color-light-black;
+      }
+
+      .weather-temperature {
+        font-family: 'PTRootBold', sans-serif;
+        font-size: 3.6rem;
+      }
+
+      .weather-status-detail {
+        font-size: 1.6rem;
+        color: $color-light-black;
+      }
+    }
+
+    .weather-detail {
+      display: flex;
+
+      .detail-item {
+        p {
+          font-size: 1.6rem;
+          margin-right: 3rem;
+        }
+
+        .detail-item-title {
+          color: $color-light-black;
+        }
+
+        .detail-item-content {
+          color: $color-black;
+        }
+      }
+    }
+  }
+
+  .weather-date {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      font-family: 'PTRootBold', sans-serif;
+      font-size: 1.8rem;
+    }
+
+    .weather-icon {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 0.5rem;
+      border: 0.1rem solid $color-light-black;
+      align-self: flex-end;
+    }
+  }
+}

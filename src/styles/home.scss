@@ -7,6 +7,9 @@
 
 // SECTION: WEATHER
 .weather {
-  height: 40vh;
-  background-color: yellowgreen;
+  height: 50vh;
+  background-color: $color-grey-darker;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
