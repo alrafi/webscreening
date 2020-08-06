@@ -1,0 +1,57 @@
+@import './color.scss';
+
+.other-features-wrapper {
+  height: 100vh;
+  padding: 8rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-family: 'PTRootMedium';
+    font-size: 3.2rem;
+    margin-bottom: 6rem;
+  }
+
+  .features-more-wrapper {
+    display: flex;
+
+    p {
+      font-family: 'PTRootMedium', sans-serif;
+      font-size: 1.6rem;
+      color: $color-primary;
+    }
+  }
+
+  .features-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin-bottom: 6rem;
+
+    .feature-item {
+      width: 38rem;
+      height: 30rem;
+      background-color: $color-grey;
+      border-radius: 1.5rem;
+      padding: 2rem;
+
+      img {
+        width: 3.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      h2 {
+        font-size: 2.4rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-family: 'PTRootMedium', sans-serif;
+        font-size: 1.6rem;
+        line-height: 1.4;
+        color: $color-light-black;
+      }
+    }
+  }
+}

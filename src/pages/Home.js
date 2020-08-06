@@ -7,6 +7,7 @@ import InboxFeature from '../components/InboxFeature';
 import DispositionFeature from '../components/DispositionFeature';
 import UserSessionFeature from '../components/UserSessionFeature';
 import Testimonial from '../components/Testimonial';
+import OtherFeatures from '../components/OtherFeatures';
 
 const Home = () => {
   return (
@@ -29,6 +30,9 @@ const Home = () => {
       </section>
       <section className="testimonial">
         <Testimonial />
+      </section>
+      <section className="other-features">
+        <OtherFeatures />
       </section>
     </div>
   );
