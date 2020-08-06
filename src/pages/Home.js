@@ -6,6 +6,7 @@ import Weather from '../components/Weather';
 import InboxFeature from '../components/InboxFeature';
 import DispositionFeature from '../components/DispositionFeature';
 import UserSessionFeature from '../components/UserSessionFeature';
+import Testimonial from '../components/Testimonial';
 
 const Home = () => {
   return (
@@ -25,6 +26,9 @@ const Home = () => {
       </section>
       <section className="usersession-features">
         <UserSessionFeature />
+      </section>
+      <section className="testimonial">
+        <Testimonial />
       </section>
     </div>
   );

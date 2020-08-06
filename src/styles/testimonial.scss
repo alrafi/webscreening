@@ -1,0 +1,106 @@
+@import './color.scss';
+
+.testimonial-container {
+  height: 100vh;
+  background-color: $color-grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rem 2.5rem;
+
+  .testimonial-arrow {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: $color-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    img {
+      width: 4rem;
+      height: 4rem;
+    }
+  }
+
+  .testimonial-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .testimonial-wrapper {
+      width: 65vw;
+      display: flex;
+      margin-bottom: 8rem;
+
+      .testimonial-image {
+        margin-right: 22rem;
+        width: 26rem;
+        height: 26rem;
+        position: relative;
+
+        .image {
+          width: 20rem;
+          position: absolute;
+          top: 4rem;
+          left: 0;
+        }
+
+        .background-image {
+          width: 20rem;
+          position: absolute;
+          top: 0;
+          left: 4rem;
+        }
+      }
+
+      .testimonial-message {
+        h2 {
+          font-family: 'PTRootBold', sans-serif;
+          font-size: 3.2rem;
+          margin-bottom: 2rem;
+        }
+
+        .message {
+          font-family: 'PTRootMedium', sans-serif;
+          font-size: 2.4rem;
+          margin-bottom: 3rem;
+        }
+
+        .user-name {
+          h3 {
+            font-family: 'PTRootBold', sans-serif;
+            font-size: 1.6rem;
+          }
+
+          p {
+            font-size: 1.6rem;
+            color: $color-light-black;
+          }
+        }
+      }
+    }
+
+    .carousel {
+      display: flex;
+
+      .carousel-default {
+        height: 1rem;
+        background-color: $color-primary;
+        margin-right: 0.5rem;
+        cursor: pointer;
+      }
+
+      .carousel-item-active {
+        width: 3rem;
+        border-radius: 1rem;
+      }
+
+      .carousel-item {
+        width: 1rem;
+        border-radius: 50%;
+      }
+    }
+  }
+}
