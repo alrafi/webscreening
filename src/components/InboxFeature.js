@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/inboxfeature.scss';
+import '../styles/arrow-right.scss';
 
 const InboxFeature = () => {
   return (
@@ -18,6 +19,7 @@ const InboxFeature = () => {
           <img
             src={require('../assets/img/SVG/icon - arrow-right@1x.svg')}
             alt="inbox more"
+            className="arrow-right primary"
           />
         </div>
       </div>

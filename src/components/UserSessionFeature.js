@@ -18,6 +18,7 @@ const UserSessionFeature = () => {
           <img
             src={require('../assets/img/SVG/icon - arrow-right@1x.svg')}
             alt="inbox more"
+            className="arrow-right primary"
           />
         </div>
       </div>

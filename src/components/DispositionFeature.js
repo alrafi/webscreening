@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/dispositionfeature.scss';
+import '../styles/arrow-right.scss';
 
 const DispositionFeature = () => {
   return (
@@ -21,7 +22,8 @@ const DispositionFeature = () => {
           <p>Learn More About Our Features</p>
           <img
             src={require('../assets/img/SVG/icon - arrow-right@1x.svg')}
-            alt=""
+            alt="arrow right"
+            className="arrow-right white"
           />
         </div>
       </div>
