@@ -2,43 +2,7 @@
 
 // SECTION SHOWCASE
 .showcase {
-  height: 100vh;
-
-  .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50vw;
-    margin: 0 auto;
-    margin-top: 5rem;
-
-    h1 {
-      font-family: 'PTRootBold';
-      font-size: 4.2rem;
-      text-align: center;
-      line-height: 1;
-      margin-bottom: 2rem;
-    }
-
-    p {
-      font-size: 2rem;
-      text-align: center;
-      color: $color-light-black;
-      line-height: 1.4;
-      margin-bottom: 2rem;
-    }
-
-    .button-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 31rem;
-    }
-
-    .showcase-image {
-      width: 90vw;
-    }
-  }
+  height: 135vh;
 }
 
 // SECTION: WEATHER
