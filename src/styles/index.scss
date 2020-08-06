@@ -1,3 +1,5 @@
+@import './color.scss';
+
 @font-face {
   font-family: 'PTRoot';
   font-weight: normal;
@@ -30,21 +32,23 @@
       format('opentype');
 }
 
-$color-primary: #ff850f;
-$color-white: #ffffff;
-$color-grey: #f8f9f3;
-$color-grey-darker: #f3f3f3;
-$color-black: #191919;
-
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
   font-family: 'PTRoot', sans-serif;
   font-weight: normal;
-  font-size: 16px;
+  line-height: 1.7;
   background-color: $color-white;
+  color: $color-black;
+  box-sizing: border-box;
 }

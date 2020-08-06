@@ -1,0 +1,55 @@
+@import './color.scss';
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 3rem;
+
+  .title {
+    img {
+      width: 13.8rem;
+      height: 2.4rem;
+    }
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+
+    nav ul {
+      list-style: none;
+
+      li {
+        display: inline-block;
+        font-size: 1.4rem;
+        font-family: 'PTRootBold', sans-serif;
+        margin-right: 2rem;
+      }
+    }
+
+    .button-container {
+      width: 21rem;
+      display: flex;
+      justify-content: space-between;
+
+      .button {
+        width: 10rem;
+        height: 3.5rem;
+        border-radius: 0.5rem;
+        border: none;
+        cursor: pointer;
+      }
+
+      .button-primary {
+        background-color: $color-primary;
+        color: $color-white;
+      }
+
+      .button-secondary {
+        background-color: transparent;
+        border: 0.1rem solid $color-primary;
+      }
+    }
+  }
+}

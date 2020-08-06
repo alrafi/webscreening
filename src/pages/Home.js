@@ -1,37 +1,22 @@
 import React from 'react';
 import '../styles/home.scss';
+import Header from '../components/Header';
 
 const Home = () => {
   return (
     <div className="container">
       <section className="showcase">
-        <header>
-          <div className="title">
-            <h1>TapTalk.io</h1>
-          </div>
-          <div className="navigation">
-            <nav>
-              <ul>
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>Developer</li>
-                <li>Blog</li>
-                <li>Help</li>
-              </ul>
-            </nav>
-            <div className="button-container">
-              <button>Log in</button>
-              <button>Get Started</button>
-            </div>
-          </div>
-        </header>
+        <Header />
+
         <div className="content">
-          <h1>Welcome to TapTalk.io</h1>
+          <h1>
+            Omnichannel Messaging Platform for sales, marketing, and support
+          </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-            exercitationem ab ad maxime veniam saepe quod, aliquam, asperiores
-            fugit aut omnis perspiciatis corrupti. Vel, facere debitis minima
-            aperiam quasi nam.
+            Elevate your customer engagement experience by allowing your
+            customers to reach you from WhatsApp, Twitter, FB Messenger,
+            Telegram, LINE, and email, and also easily manage it from a single
+            dashboard.
           </p>
           <div className="button-content">
             <button>See Pricing</button>
