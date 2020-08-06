@@ -8,7 +8,6 @@ import DispositionFeature from '../components/DispositionFeature';
 import UserSessionFeature from '../components/UserSessionFeature';
 import Testimonial from '../components/Testimonial';
 import OtherFeatures from '../components/OtherFeatures';
-import Button from '../components/Button';
 import Contact from '../components/Contact';
 
 const Home = () => {
