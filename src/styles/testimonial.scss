@@ -126,3 +126,45 @@
     }
   }
 }
+
+@media (max-width: 719px) {
+  .testimonial-container {
+    height: 80vh;
+    .testimonial-arrow {
+      display: none;
+    }
+
+    .testimonial-content {
+      .testimonial-wrapper {
+        flex-direction: column;
+        width: 90vw;
+        // align-items: center;\
+        .testimonial-image {
+          margin: 0 auto;
+        }
+
+        .testimonial-message {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .message {
+            text-align: center;
+          }
+
+          .user-name {
+            h3 {
+              font-size: 2.4rem;
+              text-align: center;
+            }
+
+            p {
+              font-size: 2.2rem;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
