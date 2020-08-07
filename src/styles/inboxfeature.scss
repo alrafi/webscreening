@@ -80,3 +80,16 @@
     }
   }
 }
+
+@media (min-width: 720px) and (max-width: 1024px) {
+  .inbox-wrapper {
+    height: 65vh;
+    padding: 8rem 6rem 12rem 8rem;
+
+    .bg-shape-2 {
+      top: -5rem;
+      left: -30rem;
+      width: 70rem;
+    }
+  }
+}
