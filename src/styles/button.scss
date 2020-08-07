@@ -11,12 +11,23 @@
 .button-primary {
   background-color: $color-primary;
   color: $color-white;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.button-primary:hover {
+  background-color: $color-primary-light;
 }
 
 .button-secondary {
   background-color: transparent;
   border: 0.1rem solid $color-primary;
   color: $color-primary;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.button-secondary:hover {
+  background-color: $color-primary-light;
+  color: $color-white;
 }
 
 .medium {
