@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/weather.scss';
+import '../styles/spinner.scss';
 import useIpify from '../utils/useIpify';
 import useIpstack from '../utils/useIpstack';
 import useOpenWeather from '../utils/useOpenWeather';
@@ -45,7 +46,16 @@ const Weather = () => {
   const today = getTodayDate();
 
   if (!currentweather) {
-    return <p>Loading...</p>;
+    return (
+      <div className="spinner-wrapper">
+        <img
+          src={require('../assets/img/PNG/icon - loading@2x.png')}
+          alt="Loading"
+          className="loader"
+        />
+        <p>Loading weather widget</p>
+      </div>
+    );
   }
 
   const { weather, main, name } = currentweather;

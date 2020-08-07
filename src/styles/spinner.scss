@@ -1,0 +1,29 @@
+@import './color.scss';
+
+.loader {
+  width: 6rem;
+  height: 6rem;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-family: 'PTRootMedium', sans-serif;
+    font-size: 1.8rem;
+    color: $color-primary;
+  }
+}
