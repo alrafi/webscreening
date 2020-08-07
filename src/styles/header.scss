@@ -6,6 +6,14 @@ header {
   align-items: center;
   margin: 2rem 3rem;
 
+  .hamburger-menu {
+    display: none;
+    border-radius: 1rem;
+    width: 7rem;
+    height: 7rem;
+    background-color: $color-primary-lighter;
+  }
+
   .title {
     img {
       width: 16rem;
@@ -41,6 +49,10 @@ header {
     .navigation {
       display: none;
     }
+
+    .hamburger-menu {
+      display: block;
+    }
   }
 }
 
@@ -48,6 +60,10 @@ header {
   header {
     .navigation {
       display: none;
+    }
+
+    .hamburger-menu {
+      display: block;
     }
   }
 }

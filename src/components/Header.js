@@ -11,6 +11,9 @@ const Header = () => {
           alt="TapTalk Logo"
         />
       </div>
+      <div className="hamburger-menu">
+        <img src={require('../assets/img/PNG/icon - menu@2x.png')} alt="menu" />
+      </div>
       <div className="navigation">
         <nav>
           <ul>
