@@ -56,6 +56,16 @@ const Weather = () => {
         <p>Loading weather widget</p>
       </div>
     );
+  } else if (currentweather === 'N/A') {
+    return (
+      <div className="weather-failed">
+        <img
+          src={require('../assets/img/PNG/icon - retry@2x.png')}
+          alt="Loading Failed"
+        />
+        <p>Failed, try refreshing the page</p>
+      </div>
+    );
   }
 
   const { weather, main, name } = currentweather;

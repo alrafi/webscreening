@@ -27,3 +27,22 @@
     color: $color-primary;
   }
 }
+
+.weather-failed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-family: 'PTRootMedium', sans-serif;
+    font-size: 1.8rem;
+    color: $color-light-black;
+  }
+}

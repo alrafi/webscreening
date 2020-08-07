@@ -9,7 +9,7 @@ const useIpstack = (ip) => {
       (async () => {
         try {
           const response = await Axios.get(
-            `http://api.ipstack.com/${ip}?access_key=${process.env.REACT_APP_IPSTACK_API_KEY}`
+            `https://cors-anywhere.herokuapp.com/http://api.ipstack.com/${ip}?access_key=${process.env.REACT_APP_IPSTACK_API_KEY}`
           );
           setLocation(response.data);
         } catch (err) {
