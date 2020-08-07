@@ -93,3 +93,51 @@
     }
   }
 }
+
+@media (max-width: 719px) {
+  .inbox-wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 2rem;
+    justify-content: center;
+    height: 70vh;
+
+    .inbox-info {
+      width: 80vw;
+
+      .inbox-info-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .inbox-title {
+          width: 12rem;
+          font-size: 2.2rem;
+        }
+
+        h2 {
+          font-size: 3.6rem;
+        }
+
+        .inbox-content {
+          font-size: 2.2rem;
+          text-align: center;
+        }
+      }
+
+      .inbox-more-wrapper {
+        justify-content: center;
+
+        p {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .inbox-image {
+      img {
+        width: 80vw;
+      }
+    }
+  }
+}

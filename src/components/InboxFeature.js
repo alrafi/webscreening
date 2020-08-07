@@ -8,12 +8,14 @@ const InboxFeature = () => {
       <div className="bg-shape-1"></div>
       <div className="bg-shape-2"></div>
       <div className="inbox-info">
-        <p className="inbox-title">INBOX</p>
-        <h2>All-in-one Inbox</h2>
-        <p className="inbox-content">
-          Equip your agents with the best tools to give your customers a
-          world-class customer engagement experience.
-        </p>
+        <div className="inbox-info-wrapper">
+          <p className="inbox-title">INBOX</p>
+          <h2>All-in-one Inbox</h2>
+          <p className="inbox-content">
+            Equip your agents with the best tools to give your customers a
+            world-class customer engagement experience.
+          </p>
+        </div>
         <div className="inbox-more-wrapper">
           <p className="inbox-more">Learn More About Our Features</p>
           <img
