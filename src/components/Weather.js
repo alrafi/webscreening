@@ -1,7 +1,18 @@
 import React from 'react';
 import '../styles/weather.scss';
+import useIpify from '../utils/useIpify';
+import useIpstack from '../utils/useIpstack';
 
 const Weather = () => {
+  const ip = useIpify();
+  const loc = useIpstack(ip);
+
+  if (!loc) {
+    return <p>Loading...</p>;
+  }
+
+  console.log(loc);
+
   return (
     <div className="weather-container">
       <div className="weather-content">
