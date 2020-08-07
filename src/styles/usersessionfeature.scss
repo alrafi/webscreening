@@ -61,3 +61,14 @@
     }
   }
 }
+
+@media (min-width: 720px) and (max-width: 1024px) {
+  .usersession-wrapper {
+    height: 70vh;
+    padding: 8rem 6rem 12rem 8rem;
+
+    .usersession-info {
+      width: 40vw;
+    }
+  }
+}
