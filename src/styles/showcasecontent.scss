@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80rem;
+  width: 80vw;
   margin: 0 auto;
   margin-top: 10rem;
 
@@ -33,5 +33,24 @@
 
   .showcase-image {
     width: 90vw;
+  }
+}
+
+@media (max-width: 719px) {
+  .content {
+    h1 {
+      font-size: 4.6rem;
+      margin-bottom: 4rem;
+    }
+
+    p {
+      font-size: 2.8rem;
+      margin-bottom: 3rem;
+    }
+
+    .button-content {
+      width: 80vw;
+      margin-bottom: 5rem;
+    }
   }
 }

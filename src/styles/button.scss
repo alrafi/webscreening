@@ -20,11 +20,25 @@
 }
 
 .medium {
-  width: 10rem;
+  width: 49%;
   height: 3.5rem;
 }
 
 .large {
-  width: 15rem;
+  width: 49%;
   height: 4.5rem;
+}
+
+@media (max-width: 719px) {
+  .button {
+    border-radius: 1rem;
+  }
+
+  .medium {
+    height: 6.5rem;
+  }
+
+  .large {
+    height: 8.5rem;
+  }
 }

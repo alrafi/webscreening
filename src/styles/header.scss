@@ -43,3 +43,11 @@ header {
     }
   }
 }
+
+@media (max-width: 719px) {
+  header {
+    .navigation {
+      display: none;
+    }
+  }
+}
