@@ -5,14 +5,16 @@ const UserSessionFeature = () => {
   return (
     <div className="usersession-wrapper">
       <div className="usersession-info">
-        <p className="usersession-title">USER SESSION SYNC</p>
-        <h2>User Session Synchronization</h2>
-        <p className="usersession-content">
-          Speeding up the workflow by helping your customers to start a
-          conversation with you. Once your customers has logged in and need to
-          get in touch with you, they don't need to fill their information
-          again.
-        </p>
+        <div className="usersession-info-wrapper">
+          <p className="usersession-title">USER SESSION SYNC</p>
+          <h2>User Session Synchronization</h2>
+          <p className="usersession-content">
+            Speeding up the workflow by helping your customers to start a
+            conversation with you. Once your customers has logged in and need to
+            get in touch with you, they don't need to fill their information
+            again.
+          </p>
+        </div>
         <div className="usersession-more-wrapper">
           <p className="usersession-more">Learn More About Our Features</p>
           <img

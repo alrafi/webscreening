@@ -72,3 +72,56 @@
     }
   }
 }
+
+@media (max-width: 719px) {
+  .usersession-wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 100vw;
+
+    .usersession-info {
+      width: 80vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+
+      .usersession-info-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+
+        .usersession-title {
+          width: 28rem;
+          font-size: 2.2rem;
+        }
+
+        h2 {
+          font-size: 3.4rem;
+        }
+
+        .usersession-content {
+          font-size: 2.2rem;
+          text-align: center;
+        }
+      }
+
+      .usersession-more-wrapper {
+        justify-content: center;
+
+        .usersession-more {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .usersession-image {
+      margin: 0 auto;
+      img {
+        width: 70vw;
+      }
+    }
+  }
+}

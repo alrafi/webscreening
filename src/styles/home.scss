@@ -1,6 +1,9 @@
 @import './color.scss';
 
 // SECTION SHOWCASE
+.container {
+  overflow: hidden;
+}
 .showcase {
   height: 145vh;
 }
