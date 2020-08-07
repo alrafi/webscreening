@@ -8,7 +8,7 @@
 // SECTION: WEATHER
 .weather {
   height: 50vh;
-  background-color: $color-grey-darker;
+  background-color: $color-grey-dark;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,5 +41,9 @@
 @media (min-width: 720px) and (max-width: 1024px) {
   .showcase {
     height: 110vh;
+  }
+
+  .weather {
+    height: 40vh;
   }
 }
