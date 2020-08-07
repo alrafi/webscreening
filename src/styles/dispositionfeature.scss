@@ -32,7 +32,7 @@
 
     h2 {
       font-family: 'PTRootBold', sans-serif;
-      font-size: 4.2rem;
+      font-size: 3.6rem;
       margin-bottom: 1.2rem;
       line-height: 1.2;
       color: $color-white;
@@ -58,6 +58,25 @@
       img {
         color: $color-primary;
       }
+    }
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+  .disposition-wrapper {
+    height: 60vh;
+    padding: 6rem 4rem;
+    justify-content: flex-start;
+
+    .disposition-image {
+      margin-right: 5rem;
+      img {
+        width: 30vw;
+      }
+    }
+
+    .disposition-info {
+      width: 60vw;
     }
   }
 }
