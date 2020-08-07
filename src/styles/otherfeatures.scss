@@ -30,8 +30,8 @@
     margin-bottom: 6rem;
 
     .feature-item {
-      width: 38rem;
-      height: 30rem;
+      width: 28vw;
+      height: 30vw;
       background-color: $color-grey;
       border-radius: 1.5rem;
       padding: 2rem;
@@ -51,6 +51,25 @@
         font-size: 1.6rem;
         line-height: 1.4;
         color: $color-light-black;
+      }
+    }
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+  .other-features-wrapper {
+    .features-container {
+      .feature-item {
+        width: 28vw;
+        height: 32vw;
+
+        h2 {
+          font-size: 2rem;
+        }
+
+        p {
+          font-size: 1.6rem;
+        }
       }
     }
   }
