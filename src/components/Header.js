@@ -17,20 +17,42 @@ const Header = () => {
       <div className="navigation">
         <nav>
           <ul>
-            <li>
+            <li className="features">
               Features{' '}
               <img
                 src={require('../assets/img/SVG/icon - chevron-down.svg')}
                 alt=""
               />
+              <div className="features-dropdown">
+                <a href="/" className="features-dropdown-item">
+                  Inbox
+                </a>
+                <a href="/" className="features-dropdown-item">
+                  Disposition
+                </a>
+                <a href="/" className="features-dropdown-item">
+                  User Session Synch
+                </a>
+              </div>
             </li>
             <li>Pricing</li>
-            <li>
+            <li className="features">
               Developer{' '}
               <img
                 src={require('../assets/img/SVG/icon - chevron-down.svg')}
                 alt=""
               />
+              <div className="features-dropdown">
+                <a href="/" className="features-dropdown-item">
+                  Documentation
+                </a>
+                <a href="/" className="features-dropdown-item">
+                  iOS SDK
+                </a>
+                <a href="/" className="features-dropdown-item">
+                  Android SDK
+                </a>
+              </div>
             </li>
             <li>Blog</li>
             <li>Help</li>

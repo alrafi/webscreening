@@ -26,6 +26,34 @@ header {
     nav ul {
       list-style: none;
 
+      .features {
+        position: relative;
+        cursor: pointer;
+
+        .features-dropdown {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 16rem;
+          border-radius: 1rem;
+          box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+          z-index: 1;
+
+          .features-dropdown-item {
+            color: black;
+            padding: 1.2rem 1.6rem;
+            text-decoration: none;
+            display: block;
+          }
+        }
+      }
+
+      .features:hover {
+        .features-dropdown {
+          display: block;
+        }
+      }
+
       li {
         display: inline-block;
         font-size: 1.4rem;
