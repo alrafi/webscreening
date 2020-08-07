@@ -8,9 +8,7 @@ header {
 
   .hamburger-menu {
     display: none;
-    border-radius: 1rem;
-    width: 7rem;
-    height: 7rem;
+
     background-color: $color-primary-lighter;
   }
 
@@ -52,6 +50,9 @@ header {
 
     .hamburger-menu {
       display: block;
+      border-radius: 1rem;
+      width: 5rem;
+      height: 5rem;
     }
   }
 }
@@ -64,6 +65,9 @@ header {
 
     .hamburger-menu {
       display: block;
+      border-radius: 1rem;
+      width: 7rem;
+      height: 7rem;
     }
   }
 }
