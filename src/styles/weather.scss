@@ -6,9 +6,13 @@
   border-radius: 2rem;
   padding: 2rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  // justify-content: space-between;
 
   .weather-content {
+    display: flex;
+    justify-content: space-between;
+
     .weather-info {
       .weather-location {
         font-family: 'PTRootBold', sans-serif;
@@ -29,44 +33,45 @@
         font-size: 1.6rem;
         color: $color-light-black;
         text-transform: capitalize;
+        margin-bottom: 1rem;
       }
     }
 
-    .weather-detail {
+    .weather-date {
       display: flex;
+      flex-direction: column;
 
-      .detail-item {
-        p {
-          font-size: 1.6rem;
-          margin-right: 3rem;
-        }
+      p {
+        font-family: 'PTRootBold', sans-serif;
+        font-size: 1.8rem;
+      }
 
-        .detail-item-title {
-          color: $color-light-black;
-        }
-
-        .detail-item-content {
-          color: $color-black;
-        }
+      .weather-icon {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 0.5rem;
+        border: 0.1rem solid $color-grey-dark;
+        align-self: flex-end;
       }
     }
   }
 
-  .weather-date {
+  .weather-detail {
     display: flex;
-    flex-direction: column;
 
-    p {
-      font-family: 'PTRootBold', sans-serif;
-      font-size: 1.8rem;
-    }
+    .detail-item {
+      p {
+        font-size: 1.6rem;
+        margin-right: 3rem;
+      }
 
-    .weather-icon {
-      width: 5rem;
-      height: 5rem;
-      border-radius: 0.5rem;
-      border: 0.1rem solid $color-light-black;
-      align-self: flex-end;
+      .detail-item-title {
+        color: $color-light-black;
+      }
+
+      .detail-item-content {
+        color: $color-black;
+      }
     }
   }
 }

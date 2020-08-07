@@ -72,36 +72,36 @@ const Weather = () => {
           <p className="weather-temperature">{temp}</p>
           <p className="weather-status-detail">{weather[0].description}</p>
         </div>
-        <div className="weather-detail">
-          <div className="detail-item">
-            <p className="detail-item-title">Min.</p>
-            <p className="detail-item-content">{temp_min}</p>
-          </div>
-          <div className="detail-item">
-            <p className="detail-item-title">Max.</p>
-            <p className="detail-item-content">{temp_max}</p>
-          </div>
-          <div className="detail-item">
-            <p className="detail-item-title">Feels like</p>
-            <p>{feels_like}</p>
-          </div>
-          <div className="detail-item">
-            <p className="detail-item-title">Pressure</p>
-            <p className="detail-item-content">{pressure} hPa</p>
-          </div>
-          <div className="detail-item">
-            <p className="detail-item-title">Humidity</p>
-            <p className="detail-item-content">{humidity}%</p>
+        <div className="weather-date">
+          <p>{today}</p>
+          <div className="weather-icon">
+            <img
+              src={`http://openweathermap.org/img/wn/${weather[0].icon}.png`}
+              alt={weather[0].description}
+            />
           </div>
         </div>
       </div>
-      <div className="weather-date">
-        <p>{today}</p>
-        <div className="weather-icon">
-          <img
-            src={`http://openweathermap.org/img/wn/${weather[0].icon}.png`}
-            alt={weather[0].description}
-          />
+      <div className="weather-detail">
+        <div className="detail-item">
+          <p className="detail-item-title">Min.</p>
+          <p className="detail-item-content">{temp_min}</p>
+        </div>
+        <div className="detail-item">
+          <p className="detail-item-title">Max.</p>
+          <p className="detail-item-content">{temp_max}</p>
+        </div>
+        <div className="detail-item">
+          <p className="detail-item-title">Feels like</p>
+          <p>{feels_like}</p>
+        </div>
+        <div className="detail-item">
+          <p className="detail-item-title">Pressure</p>
+          <p className="detail-item-content">{pressure} hPa</p>
+        </div>
+        <div className="detail-item">
+          <p className="detail-item-title">Humidity</p>
+          <p className="detail-item-content">{humidity}%</p>
         </div>
       </div>
     </div>
