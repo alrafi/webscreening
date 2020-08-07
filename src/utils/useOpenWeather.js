@@ -11,7 +11,7 @@ const useOpenWeather = (loc) => {
       (async () => {
         try {
           const response = await Axios.get(
-            `https://api.openweathermap.org/data/2.5/weather?q=${region_name},${country_code}&appid=271da6b323b05ebaf2b4aaa0f3378f89&units=metric`
+            `https://api.openweathermap.org/data/2.5/weather?q=${region_name},${country_code}&appid=${process.env.REACT_APP_WEATHER_API_KEY}&units=metric`
           );
           setWeather(response.data);
           setCountry(country_name);
