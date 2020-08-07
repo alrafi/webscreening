@@ -29,7 +29,7 @@ const Contact = () => {
             <div className="menu-separator"></div>Documentations
           </li>
           <li>
-            <div className="menu-separator"></div>iOS SDK
+            <div className="menu-separator mobile-hide"></div>iOS SDK
           </li>
           <li>
             <div className="menu-separator"></div>Android SDK

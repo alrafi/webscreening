@@ -90,3 +90,33 @@
     }
   }
 }
+
+@media (max-width: 719px) {
+  .contact-wrapper {
+    height: 60vh;
+    padding: 4rem 2rem;
+    .contact-started {
+      .button-contact {
+        width: 80vw;
+      }
+    }
+
+    footer {
+      ul {
+        width: 45vw;
+        text-align: center;
+        li {
+          .mobile-hide {
+            display: none;
+          }
+        }
+      }
+
+      .icon-list {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+      }
+    }
+  }
+}
