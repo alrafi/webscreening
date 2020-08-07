@@ -87,7 +87,7 @@
 
       .carousel-default {
         height: 1rem;
-        background-color: $color-primary;
+
         margin-right: 0.5rem;
         cursor: pointer;
       }
@@ -95,11 +95,33 @@
       .carousel-item-active {
         width: 3rem;
         border-radius: 1rem;
+        background-color: $color-primary;
       }
 
       .carousel-item {
         width: 1rem;
         border-radius: 50%;
+        background-color: $color-grey-darker;
+      }
+    }
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+  .testimonial-container {
+    height: 70vh;
+    .testimonial-content {
+      .testimonial-wrapper {
+        width: 75vw;
+        .testimonial-message {
+          h2 {
+            font-size: 2.8rem;
+          }
+
+          .message {
+            font-size: 2rem;
+          }
+        }
       }
     }
   }
