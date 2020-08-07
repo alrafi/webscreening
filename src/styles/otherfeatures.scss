@@ -18,7 +18,7 @@
 
     p {
       font-family: 'PTRootMedium', sans-serif;
-      font-size: 1.6rem;
+      font-size: 2rem;
       color: $color-primary;
     }
   }
@@ -58,6 +58,7 @@
 
 @media (min-width: 720px) and (max-width: 1024px) {
   .other-features-wrapper {
+    height: 90vh;
     .features-container {
       .feature-item {
         width: 28vw;
