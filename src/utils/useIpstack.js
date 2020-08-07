@@ -6,7 +6,6 @@ const useIpstack = (ip) => {
 
   useEffect(() => {
     if (ip !== null) {
-      console.log(ip);
       (async () => {
         try {
           const response = await Axios.get(
