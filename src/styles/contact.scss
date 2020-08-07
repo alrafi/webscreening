@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 8rem 20rem 0 20rem;
+  padding: 8rem 10rem 0 10rem;
 
   .contact-started {
     display: flex;
@@ -15,7 +15,7 @@
     margin-bottom: 5rem;
     h2 {
       font-family: 'PTRootMedium', sans-serif;
-      font-size: 4.2rem;
+      font-size: 3.6rem;
       text-align: center;
       margin-bottom: 5rem;
     }
@@ -60,7 +60,7 @@
 
     .address {
       font-family: 'PTRootMedium', sans-serif;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       text-align: center;
       margin-bottom: 2rem;
       color: $color-light-black;
@@ -74,6 +74,19 @@
 
     .taptalk-icon {
       width: 4rem;
+    }
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+  .contact-wrapper {
+    height: 70vh;
+    padding: 4rem 2rem;
+
+    .contact-started {
+      h2 {
+        font-size: 3rem;
+      }
     }
   }
 }
