@@ -75,3 +75,26 @@
     }
   }
 }
+
+@media (max-width: 719px) {
+  .other-features-wrapper {
+    .features-container {
+      height: 70vh;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      .feature-item {
+        width: 80vw;
+        height: 20vh;
+        padding: 3rem;
+        h2 {
+          font-size: 2.8rem;
+        }
+
+        p {
+          font-size: 2.2rem;
+        }
+      }
+    }
+  }
+}
