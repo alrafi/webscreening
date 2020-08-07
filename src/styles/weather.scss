@@ -78,3 +78,36 @@
     }
   }
 }
+
+@media (max-width: 719px) {
+  .weather-container {
+    .weather-content {
+      flex-direction: column-reverse;
+      align-items: center;
+
+      .weather-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .weather-date {
+        align-items: center;
+        .weather-icon {
+          align-self: center;
+        }
+      }
+    }
+
+    .weather-detail {
+      justify-content: center;
+
+      .detail-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
