@@ -37,3 +37,9 @@
 // SECTION: CONTACT
 .contact {
 }
+
+@media (min-width: 720px) and (max-width: 1024px) {
+  .showcase {
+    height: 110vh;
+  }
+}

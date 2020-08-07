@@ -4,9 +4,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50vw;
+  width: 80rem;
   margin: 0 auto;
-  margin-top: 5rem;
+  margin-top: 10rem;
 
   h1 {
     font-family: 'PTRootBold';
@@ -20,7 +20,7 @@
     font-size: 2rem;
     text-align: center;
     color: $color-light-black;
-    line-height: 1.4;
+    line-height: 1.6;
     margin-bottom: 2rem;
   }
 
